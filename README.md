@@ -37,3 +37,14 @@ assert(
 ```
 Тоже не по заданию: использовал trait. Эксперимент, не доделан!
 ```
+
+- test 2.3
+```
+Решено!
+
+assert(
+    $calculator->firstNumber(3)
+        ->secondNumber(2)
+        ->operation(Plus::class)
+        ->result() == 5);
+```
